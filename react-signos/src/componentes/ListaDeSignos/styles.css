@@ -1,0 +1,15 @@
+.lista-grid {
+    max-width: 980px;
+    width: 90%;
+    margin: 35px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(141px,1fr));
+    grid-gap:30px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 535px) {
+    .lista-grid {
+        max-width: 350px;
+    }
+}

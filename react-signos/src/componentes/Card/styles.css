@@ -1,0 +1,33 @@
+.box-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 160px;
+    height: 200px;
+    padding: 5px 0px;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: #29317a;
+    color:#ffff;
+    box-shadow: 1px 0px 11px rgba(0, 0, 0, 0.342);
+    cursor: pointer;
+}
+
+.nomeSigno {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.img-signo {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    border-radius: 3px;
+    margin-bottom: 6px;
+}
+
+.periodoNascimento {
+    font-size: 13px;
+}
