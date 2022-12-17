@@ -6,12 +6,18 @@
     width: 160px;
     height: 200px;
     padding: 5px 0px;
-    border:1px solid black;
+    border: 1px solid black;
     border-radius: 5px;
     background-color: #29317a;
-    color:#ffff;
     box-shadow: 1px 0px 11px rgba(0, 0, 0, 0.342);
+    color: #ffff;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.box-card:hover{
+    transform: translateY(-7px);
+    box-shadow: 1px 0px 11px 1px black;
 }
 
 .nomeSigno {
@@ -21,13 +27,14 @@
 }
 
 .img-signo {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     object-fit: contain;
-    border-radius: 3px;
+    border-radius: 1px;
     margin-bottom: 6px;
 }
 
 .periodoNascimento {
     font-size: 13px;
+    font-weight: 500;
 }
